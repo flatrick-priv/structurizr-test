@@ -9,9 +9,15 @@ This repo serves as a test-bed for trying to create a template on how to work wi
 
 === Setting up the tools
 
-First, you'll need to install a Java Runtime and GraphViz as both softwares depend on these. +
-It is possible to run these through containers as well, but this readme will focus on running these natively on a Windows-machine.
+First, you'll need to install a https://adoptium.net/[Java Runtime] _(v17 or newer)_ and https://graphviz.org/download/[GraphViz] as both softwares depend on these. +
+It is possible to run these through containers as well, but this readme will focus on running these natively on a Windows-machine for the best possible performance.
 
-==== https://docs.structurizr.com/lite[structurizr-lite]
+==== structurizr-lite
 
-==== https://github.com/avisi-cloud/structurizr-site-generatr[structurizr-site-generatr]
+- Download the latest version as a **.war** file from https://github.com/structurizr/lite/releases/latest[structurizr-lite]
+- Unpack it where you want to keep it (for the sake of this guide, I'm going to assume that you've put it in `+C:\tools\structurizr-lite\+`)
+
+==== structurizr-site-generatr
+
+- Download the latest version as a **.zip** file from https://github.com/avisi-cloud/structurizr-site-generatr/releases/latest[structurizr-site-generatr]
+- Unpack it where you want to keep it (for the sake of this guide, I'm going to assume that you've put it in `+C:\tools\structurizr-site-generatr\+`)
