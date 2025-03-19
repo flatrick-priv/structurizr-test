@@ -1,2 +1,5 @@
 # Don't store the generated output from structurizr-site-generatr
 build/
+
+# Don't store the temporary files for structurizr-lite
+.structurizr/
