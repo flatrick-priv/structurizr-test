@@ -1,0 +1,1 @@
+java "-Djdk.util.jar.enableMultiRelease=false" -jar "C:\tools\Structurizr-Lite\structurizr-lite.war" %~dp0
