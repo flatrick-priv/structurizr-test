@@ -1,1 +1,1 @@
-C:\tools\Structurizr-Site-Generatr\bin\structurizr-site-generatr.bat serve --port 8090 -w workspace.dsl
+C:\tools\Structurizr-Site-Generatr\bin\structurizr-site-generatr.bat serve --port 8090 --workspace-file %~dp0workspace.dsl --site-dir %~dp0build\serve

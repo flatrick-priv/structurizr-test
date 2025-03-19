@@ -1,1 +1,1 @@
-C:\tools\Structurizr-Site-Generatr\bin\structurizr-site-generatr.bat generate-site -w workspace.dsl
+C:\tools\Structurizr-Site-Generatr\bin\structurizr-site-generatr.bat generate-site --workspace-file %~dp0workspace.dsl --output-dir %~dp0build\site
